@@ -1,0 +1,156 @@
+.robo{
+     position: relative;
+    margin-left: 37rem;
+    margin-top: 4rem;
+}
+.face{
+    background-color: blueviolet;
+    width: 10rem;
+    height: 8rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-bottom: -8rem;
+}
+.eyeball1{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    margin-top: 4.3rem;
+}
+.eyeball1{
+    height: 2rem;
+    width: 2rem;
+    border-top: 4px solid yellow;
+    border-left: 4px solid red;
+    border-bottom: 4px solid green;
+    border-right:  4px solid black;
+    background-color: white;
+    animation: moveeyeball1 2s infinite;
+    transition: ease-in-out;
+}
+@keyframes moveeyeball1{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.eyeball2{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    background-color: rgb(10, 6, 6);
+    border-radius: 50%;
+    margin-left: 5.8rem;
+    margin-top: 4.3rem;
+}
+.eyeball2{
+    height: 2rem;
+    width: 2rem;
+    border-top: 4px solid yellow;
+    border-left: 4px solid red;
+    border-bottom: 4px solid green;
+    border-right:  4px solid black;
+    background-color: white;
+    animation: moveeyeball2 2s infinite;
+    transition: ease-in-out;
+}
+@keyframes moveeyeball2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.body{
+width: 10rem;
+height: 10rem;
+position: absolute;
+background-color: blueviolet;
+border-radius: 50px 50px 0px 0px;
+margin-left: rem;
+rotate: 180deg;
+margin-top: 9rem;
+animation: movebody 2s infinite;
+}
+.hand1{
+    width: 2rem;
+    height: 7rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: rem;
+    /* rotate: 180deg; */
+    margin-top: 10rem;
+    margin-left: -2.5rem;
+    animation: movehand1 2s infinite;
+}
+@keyframes movehand1{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    50%{
+        transform: rotate(90deg);
+        transform-origin: top;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+}
+.hand2{
+    width: 2rem;
+    height: 7rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: rem;
+    /* rotate: 180deg; */
+    margin-top: 10rem;
+    margin-left: 10.5rem;
+    animation: movehand2 2s infinite;
+}
+@keyframes movehand2{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    50%{
+        transform: rotate(-90deg);
+        transform-origin: top;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin:  top;
+    }
+}
+.knee1{
+    width: 2rem;
+    height: 7rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 0rem;
+    margin-top: 18rem;
+    margin-left: 6rem;
+    z-index: -1;
+    animation: moveknee1 2s infinite;
+}
+.knee2{
+    width: 2rem;
+    height: 7rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 50px 50px;
+    margin-left:.  rem;
+    margin-top: 18rem;
+    margin-left: 2rem;
+    z-index: -1;
+    animation: moveknee2 2s infinite;
+}
